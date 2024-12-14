@@ -34,6 +34,7 @@ pipeline {
             steps {
                 script {
                     // Build your app (e.g., transpile or bundle JS files)
+                    sh "echo 'extra echo...'"
                     sh "echo 'build stage....'"
                 }
             }
